@@ -1,0 +1,295 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F9F1C8;
+    color: #4A3431;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+}
+
+#izq{
+    background: #3DA787;
+    width: 375px;
+}
+
+#foto{
+    z-index: 1;
+    position: static;
+    width: 200px;
+    height: 240px;
+    margin-top: 16px;
+    border-radius: 100%;
+    
+}
+
+#uno{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.uno-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h3{
+    justify-content: center;
+    color: #FFFBE6;
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+i{
+    color: rgba(0, 0, 0, 0.521);
+    margin: 5px;
+    font-size: 14px;
+}
+
+i:hover{
+    color: #D9CE9C;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.dos{
+    width: 238px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.skills:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detalle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    position: relative;
+    border: 1px solid rgb(6, 80, 90);
+    border-radius: 20px;
+}
+
+.menu div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgb(112, 216, 190);
+}
+
+#or-mu{
+    animation: or-barra 2s forwards;
+}
+
+@keyframes or-barra{
+    100%{
+        width: 100%;
+    }
+}
+
+#te-mu{
+    animation: te-barra 2s forwards;
+}
+
+@keyframes te-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+#a-mu{
+    animation: a-barra 2s forwards;
+}
+
+@keyframes a-barra{
+    100%{
+        width: 89%;
+    }
+}
+
+#e-mu{
+    animation: e-barra 2s forwards;
+}
+
+@keyframes e-barra{
+    100%{
+        width: 100%;
+    }
+}
+
+#pc-mu{
+    animation: pc-barra 2s forwards;
+}
+
+@keyframes pc-barra{
+    100%{
+        width: 100%;
+    }
+}
+
+#html-mu{
+    animation: html-barra 2s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 80%;
+    }
+}
+
+#css-mu{
+    animation: css-barra 2s forwards;
+}
+
+@keyframes css-barra{
+    100%{
+        width: 85%;
+    }
+}
+
+#js-mu{
+    animation: js-barra 2s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 100%;
+    }
+}
+
+
+
+#der{
+    width: 625px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h2{
+    color: #3DA787;
+    font-size: 39px;
+    margin-left: 110px;
+}
+
+h1{
+    font-size: 50px;
+    margin-left: 45px;
+    margin-bottom: 34px;
+}
+
+
+
+p{
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+h4{
+    border-radius: 11px;
+    background-color:#3DA787 ;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 8px;
+}
+
+.edu{
+    display: flex;
+    margin-top: 25px;
+}
+
+#pro{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#af{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#tec{
+    margin-left: 87px;
+    margin-top: 10px;
+}
+
+#col{
+    margin-left: 87px;
+    margin-top: 10px;
+}
+
+
+
+.experiencia{
+  display: flex;
+  margin-top: 25px;
+}
+
+h6{
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+@media (max-width:768px){
+  .section{
+    flex-direction: column;
+    align-items: center;
+}
+
+    #izq{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+
+@media (max-width:500px) {
+    #izq{
+        margin-left: 144px;
+        background: linear-gradient(348deg, transparent, #1ad3c421);
+    } 
+
+    .dos{
+        margin-left: 0px;
+    }
+
+    #der{
+        width: 430px;
+        margin-left: 140px;
+        margin-top: 35px;
+    }
+
+    #af{
+        margin-left: 111px;
+    }
+
+    #tec{
+        margin-left: 136px;
+    }
+
+    #exp-v{
+        margin-left: 11px;
+    }
+}
